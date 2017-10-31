@@ -1,5 +1,6 @@
 {
   "dump": "string_classifier.pki",
+  "min_key_length": 16,
   "blacklists": [
     "datasets/keys/blacklist.txt",
     "datasets/keys/manually_verified_keys.txt"
