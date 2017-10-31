@@ -108,8 +108,10 @@ optional arguments:
 ### gibberish_detector/config.json
 **dump** => Where to save the trained algorithm. Delete it to retrain the algorithm
 
-**learnsets** => Txt files containing language-specific tex (e.g. books), used to calculate the transition probability from each letter to another
+**learnsets** => Txt files containing language-specific text (e.g. books), used to calculate the transition probabilities from each letter to another
 
 **good_test** => Txt files containing syntactically correct sentences, used to test the algorithm
 
 **bad_test** => Txt files containing gibberish, used to test the algorithm
+
+**re_train** => If true, than the transition probabilities gets re-computed during initialization
