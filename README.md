@@ -5,6 +5,14 @@ A Multilayer-Perceptron-based system, able to identify API Key strings with an a
 
 For technical details, [see my thesis and, in particular, Chapter 3 of the work.](https://drive.google.com/open?id=0B59pyODQqCxiUVkzb3diU0JNVzA)
 
+## Requirements
+
+- Python 3.5+
+- Modules in requirements.txt (use pip3 to install)
+```
+pip install -r requirements.txt
+```
+
 ## Library Usage
 
 ```python
