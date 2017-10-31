@@ -3,7 +3,7 @@ Neural Network Based, Automatic API Key Detector
 
 A Multilayer-Perceptron-based system, able to identify API Key strings with an accuracy of over 99%.
 
-For technical details, [see my thesis and, in particular, Chapter 3 of the work.](https://drive.google.com/open?id=0B59pyODQqCxiUVkzb3diU0JNVzA)
+For technical details, [see my thesis and, in particular, **Chapter 3** of the work.](https://drive.google.com/open?id=0B59pyODQqCxiUVkzb3diU0JNVzA)
 
 ## Requirements
 
@@ -80,3 +80,36 @@ optional arguments:
   --filter-apikeys      Filter potential apikeys from strings in stdin.
   --detect-apikeys      Detect potential apikeys from strings in stdin.
 ```
+
+## Config File Explained
+### config.json
+**dump** => Where to save the trained Neural Network. Delete it to retrain the algorithm
+
+**min_key_length** => The minimum length of an API Key
+
+**blacklists** => Txt files containing strings (one for each line) that should never be considered as API Keys
+
+**wordlists** => Txt files containing real words (one for each line), used to detect words inside strings
+
+**word_content_threshold** => If a potential API Key string is made of a fraction of word_content_threshold real words, the API Key is discarded
+
+**api_learnsets** => Txt files containing API Keys (one for each line), used to train the Neural Network
+
+**text_learnsets** => Txt files containing generic strings (no API Keys, one for each line), used to train the Neural Network
+
+**good_test** => Same as api_learnsets, but used to test the Neural Network
+
+**bad_test** => Same as text_learnsets, but used to test the Neural Network
+
+**re_train** => If true, than the Neural Network gets re-trained during initialization
+
+**logging** => Used to config logging capabilities, see [here](https://docs.python.org/3/howto/logging.html)
+
+### gibberish_detector/config.json
+**dump** => Where to save the trained algorithm. Delete it to retrain the algorithm
+
+**learnsets** => Txt files containing language-specific tex (e.g. books), used to calculate the transition probability from each letter to another
+
+**good_test** => Txt files containing syntactically correct sentences, used to test the algorithm
+
+**bad_test** => Txt files containing gibberish, used to test the algorithm
