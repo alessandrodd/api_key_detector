@@ -4,7 +4,7 @@ Singleton implementation for gibberish_detector object
 import os
 
 from gibberish_detector import gibberish_detector
-from gibberish_detector.config import conf
+from gibberish_detector.gibberish_config import conf
 
 __location__ = os.path.realpath(os.path.join(os.getcwd(), os.path.dirname(__file__)))
 

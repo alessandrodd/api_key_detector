@@ -11,7 +11,7 @@ import words_finder_singleton
 __location__ = os.path.realpath(os.path.join(os.getcwd(), os.path.dirname(__file__)))
 sys.path.append(__location__)
 
-from config import conf
+from detector_config import conf
 
 dictConfig(conf.logging)
 

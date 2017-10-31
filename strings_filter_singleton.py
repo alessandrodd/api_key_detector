@@ -3,7 +3,7 @@ Singleton implementation for WordsFinder object
 """
 import os
 
-from config import conf
+from detector_config import conf
 from strings_filter import StringsFilter
 
 __location__ = os.path.realpath(os.path.join(os.getcwd(), os.path.dirname(__file__)))

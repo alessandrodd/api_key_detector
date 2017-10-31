@@ -4,7 +4,7 @@ Singleton implementation for classifier object
 import os
 
 import string_classifier
-from config import conf
+from detector_config import conf
 
 __location__ = os.path.realpath(os.path.join(os.getcwd(), os.path.dirname(__file__)))
 
