@@ -6,8 +6,6 @@ from logging.config import dictConfig
 
 import numpy as np
 
-import words_finder_singleton
-
 __location__ = os.path.realpath(os.path.join(os.getcwd(), os.path.dirname(__file__)))
 sys.path.append(__location__)
 
@@ -20,18 +18,12 @@ import sequentiality
 import charset as cset
 from dataset_plotter import generate_3d_scatterplot
 from gibberish_detector.gibberish_singleton import gib_detector
-from strings_filter_singleton import s_filter
 
 import string_classifier
-from classifier_singleton import classifier
 
-
-def detect_api_keys(strings):
-    apikeys = [string for string in strings if s_filter.pre_filter(string)]
-    classification = classifier.predict_strings(apikeys)
-    apikeys = [apikeys[i] for i in range(len(apikeys)) if classification[i] > 0.5]
-    apikeys = [string for string in apikeys if s_filter.post_filter(string)]
-    return apikeys
+import words_finder_singleton
+from detector import filter_api_keys
+from detector import detect_api_keys
 
 
 def generate_training_set(api_key_files, generic_text_files, dump_file):
@@ -117,8 +109,10 @@ def main():
     group2.add_argument('--output-file', action="store", dest='dump_file',
                         help='Where to output the training set file')
     group3 = parser.add_argument_group()
-    group3.add_argument('--filter-apikeys', action='store_true', dest='boolean_detect',
+    group3.add_argument('--filter-apikeys', action='store_true', dest='boolean_filter',
                         help='Filter potential apikeys from strings in stdin.')
+    group3.add_argument('--detect-apikeys', action='store_true', dest='boolean_detect',
+                        help='Detect potential apikeys from strings in stdin.')
     results = parser.parse_args()
 
     # functions that don't need gibberish detector
@@ -135,13 +129,19 @@ def main():
             return
 
     if results.boolean_entropy or results.boolean_sequentiality or results.boolean_charset or \
-            results.boolean_gibberish or results.boolean_wordspercentage or results.boolean_detect:
+            results.boolean_gibberish or results.boolean_wordspercentage or results.boolean_filter or \
+            results.boolean_detect:
         print("Enter a list of string, one for each line. Press CTRL+D when finished")
         strings = []
         for line in sys.stdin:
             strings.append(line.strip())
 
         values = []
+        if results.boolean_filter:
+            values = filter_api_keys(strings)
+            for string in values:
+                print(string)
+            return
         if results.boolean_detect:
             values = detect_api_keys(strings)
             for string in values:
