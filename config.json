@@ -58,22 +58,22 @@
       }
     },
     "handlers": {
-      "h": {
+      "log_file_handler": {
         "class": "logging.FileHandler",
         "formatter": "f",
         "filename": "api_key_detector.log",
         "mode": "a",
         "encoding": "utf-8"
       },
-      "h2": {
+      "console_handler": {
         "class": "logging.StreamHandler",
         "formatter": "f"
       }
     },
     "root": {
       "handlers": [
-        "h",
-        "h2"
+        "log_file_handler",
+        "console_handler"
       ],
       "level": "INFO"
     }
