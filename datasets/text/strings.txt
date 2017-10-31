@@ -1,0 +1,204 @@
+12345678901234567890123456789012
+0123456789abcdef
+0123456789ABCDEFabcdef
+0123456789abcdef0123456789ABCDEF
+0123456789ABCDEF
+abc_action_bar_home_description
+abc_action_bar_home_description_format
+abc_action_bar_home_subtitle_description_format
+%1$s, %2$s, %3$s
+abc_action_bar_up_description
+abc_action_menu_overflow_description
+abc_action_mode_done
+abc_activity_chooser_view_see_all
+abc_activitychooserview_choose_application
+abc_searchview_description_clear
+abc_searchview_description_query
+abc_searchview_description_search
+abc_searchview_description_submit
+abc_searchview_description_voice
+abc_shareactionprovider_share_with
+abc_shareactionprovider_share_with_application
+abc_toolbar_collapse_description
+search_menu_title
+status_bar_notification_info_overflow
+abc_font_family_body_1_material
+abc_font_family_body_2_material
+sans-serif-medium
+abc_font_family_button_material
+sans-serif-medium
+abc_font_family_caption_material
+abc_font_family_display_1_material
+abc_font_family_display_2_material
+abc_font_family_display_3_material
+abc_font_family_display_4_material
+sans-serif-light
+abc_font_family_headline_material
+abc_font_family_menu_material
+abc_font_family_subhead_material
+abc_font_family_title_material
+sans-serif-medium
+Android in the Middle
+appbar_scrolling_view_behavior
+android.support.design.widget.AppBarLayout$ScrollingViewBehavior
+bottom_sheet_behavior
+android.support.design.widget.BottomSheetBehavior
+button_check_host_status
+CHECK HOST STATUS
+button_kill_connection
+button_sniff_all
+button_sniff_messaging_apps
+SNIFF MESSAGING APPS
+cancel_button_label
+change_network_interface
+Change Network Interface
+character_counter_pattern
+choose_button_label
+destination_port_title
+Destination port
+error_cidr_parse
+"Error: unable to parse cidr file! "
+error_cidr_retrieve
+Error: unable to retrieve WhatsApp net lists!
+error_copy_binaries
+ERROR: Unable to copy binaries
+error_illegal_character
+"Error: illegal character: "
+error_kill_module
+Error in Kill Connection Module
+error_parsing_pcap
+"Error parsing pcap file: "
+error_permission_denied
+"Error: write and read permissions are needed to capture packets!
+You will not be able to capture packets."
+error_retrieve_announced_prefixes
+Unable to retrieve announced prefixes.
+error_scanner_not_connected_to_wifi
+ERROR: You must be connected to WiFi in order to scan the network.
+error_sniff_all_module
+"Error in SnifAllModule: "
+error_unable_create_folder
+Error: unable to create folder pcaps in external storage.
+error_unable_parse_prefixes
+Error: unable to parse announced prefixes
+error_write_permissions
+Error: no write permissions. Please, give this app write permissions in order to continue.
+follow_tcp_and_udp_traffic_between_hosts
+Follow TCP and UDP traffic between hosts
+follow_tcp_stream
+Follow TCP stream
+follow_tcp_traffic_between_hosts
+Follow tcp traffic between hosts
+follow_udp_stream
+Follow UDP stream
+follow_udp_traffic_between_hosts
+Follow UDP traffic between hosts
+host_reachable_check
+Checking if host is reachable
+host_reachable_message
+Host is reachable.
+host_unreachable_message
+Warning: Host is unreachable.
+IP Packet %1$d/%2$d
+message_copying_binaries
+Copying binaries from asset folder to app data folder
+message_parsed_pcap
+Successfully parsed %d bytes
+module_killconnection_message
+Killing connection
+module_killconnection_title
+module_mitm_message
+Generic MitM module
+module_mitm_title
+module_sniffall_message
+Capturing all traffic
+module_sniffall_title
+module_sniffbbm_message
+Sniffing BBM traffic
+module_sniffbbm_title
+module_sniffgroupme_message
+Sniffing GroupMe traffic
+module_sniffgroupme_title
+module_sniffhike_message
+Sniffing Hike traffic
+module_sniffhike_title
+module_sniffimo_message
+Sniffing imo traffic
+module_sniffimo_title
+module_sniffinstagram_message
+Sniffing Instagra traffic
+module_sniffinstagram_title
+Instagra Sniffer
+module_sniffkakaotalk_message
+Sniffing KakaoTalk traffic
+module_sniffkakaotalk_title
+KakaoTalk Sniffer
+module_sniffmaai_message
+Sniffing Maai traffic
+module_sniffmaai_title
+module_sniffmxit_message
+Sniffing Mxit traffic
+module_sniffmxit_title
+module_sniffnimbuzz_message
+Sniffing Nimbuzz traffic
+module_sniffnimbuzz_title
+module_sniffqq_message
+Sniffing QQ traffic
+module_sniffqq_title
+module_snifftalkray_message
+Sniffing Talkray traffic
+module_snifftalkray_title
+module_snifftelegram_message
+Sniffing Telegram traffic
+module_snifftelegram_title
+Telegram Sniffer
+module_snifftextplus_message
+Sniffing textPlus traffic
+module_snifftextplus_title
+textPlus Sniffer
+module_sniffvk_message
+Sniffing VKontakte traffic
+module_sniffvk_title
+Vkontakte Sniffer
+module_sniffwhatsapp_message
+Sniffing WhatsApp traffic
+module_sniffwhatsapp_title
+WhatsApp Sniffer
+module_sniffyahoomessenger_message
+Sniffing Yahoo Messenger traffic
+module_sniffyahoomessenger_title
+Yahoo Messenger Sniffer
+module_sniffzalo_message
+Sniffing Zalo traffic
+module_sniffzalo_title
+monitoring_pcap_file
+Monitoring pcap file: %s
+No host found. Press the refresh button to try again!
+no_tcp_flow_data
+No TCP flow data. Try inspecting single packet.
+open_pcap_description
+Click on the button to open an existing *.pcap file to analyze
+parse_pcap_service
+Parse Pcap service
+parsing_pcap_message
+Parsing pcap file
+password_toggle_content_description
+Toggle password visibility
+path_password_eye
+M12,4.5C7,4.5 2.73,7.61 1,12c1.73,4.39 6,7.5 11,7.5s9.27,-3.11 11,-7.5c-1.73,-4.39 -6,-7.5 -11,-7.5zM12,17c-2.76,0 -5,-2.24 -5,-5s2.24,-5 5,-5 5,2.24 5,5 -2.24,5 -5,5zM12,9c-1.66,0 -3,1.34 -3,3s1.34,3 3,3 3,-1.34 3,-3 -1.34,-3 -3,-3z
+path_password_eye_mask_strike_through
+M2,4.27 L19.73,22 L22.27,19.46 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z
+path_password_eye_mask_visible
+M2,4.27 L2,4.27 L4.54,1.73 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z
+path_password_strike_through
+M3.27,4.27 L19.74,20.74
+secret_api_key_strings
+source_port_title
+start_scan_message
+Press the refresh button to start scanning for hosts
+stop_parsing_pcap
+Stop parsing pcap
+title_set_capture_filename
+Set capture file name
+whatsapp_cidr_update_message
+Trying to update whatsapp server info

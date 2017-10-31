@@ -1,0 +1,80 @@
+{
+  "dump": "string_classifier.pki",
+  "blacklists": [
+    "datasets/keys/blacklist.txt",
+    "datasets/keys/manually_verified_keys.txt"
+  ],
+  "wordlists": [
+    "datasets/english_wordlist.txt",
+    "datasets/computer_wordlist.txt"
+  ],
+  "word_content_threshold": 0.4,
+  "api_learnsets": [
+    "datasets/keys/gen_amazonaws.txt",
+    "datasets/keys/gen_beepbooptoken.txt",
+    "datasets/keys/gen_bitly.txt",
+    "datasets/keys/gen_facebookappsecret.txt",
+    "datasets/keys/gen_flickr.txt",
+    "datasets/keys/gen_foursquare.txt",
+    "datasets/keys/gen_githubkey.txt",
+    "datasets/keys/gen_githubsecret.txt",
+    "datasets/keys/gen_gitlabtoken.txt",
+    "datasets/keys/gen_googleauthtoken.txt",
+    "datasets/keys/gen_googlemaps.txt",
+    "datasets/keys/gen_guidupper.txt",
+    "datasets/keys/gen_herokuapikey.txt",
+    "datasets/keys/gen_linkedin.txt",
+    "datasets/keys/gen_mailchimp.txt",
+    "datasets/keys/gen_mailgun.txt",
+    "datasets/keys/gen_mashapekey.txt",
+    "datasets/keys/gen_sendgrid.txt",
+    "datasets/keys/gen_slacktoken.txt",
+    "datasets/keys/gen_stripelivekey.txt",
+    "datasets/keys/gen_twitter.txt",
+    "datasets/keys/manually_verified_keys.txt"
+  ],
+  "text_learnsets": [
+    "datasets/text/libnative-lib.txt",
+    "datasets/text/libpcap-parser.txt",
+    "datasets/text/strings.txt",
+    "datasets/text/manually_verified_text.txt"
+  ],
+  "good_test": [
+    "datasets/keys/api_test_extended.txt",
+    "datasets/keys/manually_verified_keys_test.txt"
+  ],
+  "bad_test": [
+    "datasets/text/non_api_test.txt",
+    "datasets/text/manually_verified_text_test.txt"
+  ],
+  "re_train": false,
+  "logging": {
+    "version": 1,
+    "formatters": {
+      "f": {
+        "format": "%(asctime)s %(name)-4s %(levelname)-4s %(message)s",
+        "datefmt": "%m-%d %H:%M"
+      }
+    },
+    "handlers": {
+      "h": {
+        "class": "logging.FileHandler",
+        "formatter": "f",
+        "filename": "api_key_detector.log",
+        "mode": "a",
+        "encoding": "utf-8"
+      },
+      "h2": {
+        "class": "logging.StreamHandler",
+        "formatter": "f"
+      }
+    },
+    "root": {
+      "handlers": [
+        "h",
+        "h2"
+      ],
+      "level": "INFO"
+    }
+  }
+}

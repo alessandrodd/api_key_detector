@@ -1,0 +1,22 @@
+{
+  "dump": "default_classifier.pki",
+  "api_learnsets": [
+    "datasets/keys/gen_amazon.txt",
+    "datasets/keys/gen_bitly.txt",
+    "datasets/keys/gen_facebook.txt",
+    "datasets/keys/gen_flickr.txt",
+    "datasets/keys/gen_foursquare.txt",
+    "datasets/keys/gen_guids_lower_upper.txt",
+    "datasets/keys/gen_linkedin.txt",
+    "datasets/keys/gen_twitter.txt"
+  ],
+  "text_learnsets": [
+    "datasets/text/libnative-lib.txt",
+    "datasets/text/libpcap-parser.txt",
+    "datasets/text/metamorphosis.txt",
+    "datasets/text/strings.txt"
+  ],
+  "good_test": ["datasets/api_test.txt"],
+  "bad_test": ["datasets/non_api_test.txt"],
+  "re_train": false
+}

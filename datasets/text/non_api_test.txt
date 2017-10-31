@@ -1,0 +1,143 @@
+Java_it_uniroma2_adidiego_apikeytestapp_NativeKey_localKey
+Java_it_uniroma2_adidiego_apikeytestapp_NativeKey_globalKey
+api_key_native_global
+Java_it_uniroma2_adidiego_apikeytestapp_NativeKey_staticKey
+__cxa_allocate_exception
+_ZN10__cxxabiv111__terminateEPFvvE
+__cxa_call_unexpected
+_ZSt13set_terminatePFvvE
+_ZN10__cxxabiv119__terminate_handlerE
+_ZSt13get_terminatev
+_ZN10__cxxabiv112__unexpectedEPFvvE
+_ZSt14set_unexpectedPFvvE
+_ZN10__cxxabiv120__unexpected_handlerE
+_ZSt14get_unexpectedv
+_ZTVN10__cxxabiv120__si_class_type_infoE
+pthread_mutex_unlock
+__cxa_free_exception
+_ZN10__cxxabiv120__si_class_type_infoD2Ev
+_ZN10__cxxabiv117__class_type_infoD2Ev
+_ZN10__cxxabiv120__si_class_type_infoD1Ev
+_ZN10__cxxabiv120__si_class_type_infoD0Ev
+_ZNK10__cxxabiv120__si_class_type_info20__do_find_public_srcEiPKvPKNS_17__class_type_infoES2_
+_ZNK10__cxxabiv120__si_class_type_info12__do_dyncastEiNS_17__class_type_info10__sub_kindEPKS1_PKvS4_S6_RNS1_16__dyncast_resultE
+_ZNK10__cxxabiv120__si_class_type_info11__do_upcastEPKNS_17__class_type_infoEPKvRNS1_15__upcast_resultE
+_ZNK10__cxxabiv117__class_type_info11__do_upcastEPKS0_PKvRNS0_15__upcast_resultE
+_ZTSN10__cxxabiv120__si_class_type_infoE
+_ZTIN10__cxxabiv120__si_class_type_infoE
+_ZNK10__cxxabiv117__class_type_info10__do_catchEPKSt9type_infoPPvj
+_ZNK10__cxxabiv117__class_type_info11__do_upcastEPKS0_PPv
+_ZTIN10__cxxabiv117__class_type_infoE
+_ZTVN10__cxxabiv117__class_type_infoE
+_ZNK10__cxxabiv117__class_type_info20__do_find_public_srcEiPKvPKS0_S2_
+_ZN10__cxxabiv117__class_type_infoD1Ev
+_ZN10__cxxabiv117__class_type_infoD0Ev
+_ZNK10__cxxabiv117__class_type_info12__do_dyncastEiNS0_10__sub_kindEPKS0_PKvS3_S5_RNS0_16__dyncast_resultE
+_ZTSN10__cxxabiv117__class_type_infoE
+__cxa_allocate_dependent_exception
+__cxa_free_dependent_exception
+_ZTIN10__cxxabiv119__foreign_exceptionE
+_ZTIN10__cxxabiv115__forced_unwindE
+__cxa_get_globals_fast
+_ZTISt13bad_exception
+_ZTVSt13bad_exception
+_ZNSt13bad_exceptionD1Ev
+__cxa_get_exception_ptr
+_ZSt18uncaught_exceptionv
+_ZNSt13bad_exceptionD2Ev
+_ZNKSt9exception4whatEv
+_ZNKSt13bad_exception4whatEv
+_ZNSt13bad_exceptionD0Ev
+_ZN10__cxxabiv115__forced_unwindD2Ev
+_ZN10__cxxabiv115__forced_unwindD1Ev
+_ZN10__cxxabiv115__forced_unwindD0Ev
+_ZN10__cxxabiv119__foreign_exceptionD2Ev
+_ZN10__cxxabiv119__foreign_exceptionD1Ev
+_ZN10__cxxabiv119__foreign_exceptionD0Ev
+_ZTSSt13bad_exception
+_ZTSN10__cxxabiv115__forced_unwindE
+_ZTSN10__cxxabiv119__foreign_exceptionE
+_ZTVN10__cxxabiv115__forced_unwindE
+_ZTVN10__cxxabiv119__foreign_exceptionE
+_ZN9__gnu_cxx27__verbose_terminate_handlerEv
+_ZSt15get_new_handlerv
+__cxa_deleted_virtual
+__cxa_current_exception_type
+_ZNSt10bad_typeidD1Ev
+_ZNKSt9bad_alloc4whatEv
+_ZNKSt8bad_cast4whatEv
+pthread_cond_broadcast
+_ZNKSt10bad_typeid4whatEv
+_ZNSt10bad_typeidD2Ev
+_ZNSt10bad_typeidD0Ev
+__gcclibcxx_demangle_callback
+__google_potentially_blocking_region_begin
+__google_potentially_blocking_region_end
+_ZTVN9__gnu_cxx20recursive_init_errorE
+_ZTIN9__gnu_cxx20recursive_init_errorE
+_ZN9__gnu_cxx20recursive_init_errorD1Ev
+_ZN9__gnu_cxx20recursive_init_errorD2Ev
+_ZN9__gnu_cxx20recursive_init_errorD0Ev
+_ZTSN9__gnu_cxx20recursive_init_errorE
+_ZSt15set_new_handlerPFvvE
+__gnu_Unwind_Find_exidx
+N9__gnu_cxx24__concurrence_lock_errorE
+N9__gnu_cxx26__concurrence_unlock_errorE
+__gnu_cxx::__concurrence_lock_error
+__gnu_cxx::__concurrence_unlock_error
+%s: __pos (which is %zu) > this->size() (which is %zu)
+basic_string::_S_create
+basic_string::append
+basic_string::at: __n (which is %zu) >= this->size() (which is %zu)
+basic_string::compare
+basic_string::_M_replace_aux
+basic_string::assign
+basic_string::insert
+basic_string::resize
+basic_string::replace
+basic_string::_S_construct null not valid
+basic_string::basic_string
+basic_string::substr
+pure virtual method called
+deleted virtual method called
+terminate called recursively
+terminate called after throwing an instance of '
+terminate called without an active exception
+Future already retrieved
+Promise already satisfied
+not enough space for format expansion (Please submit full bug report at http://gcc.gnu.org/bugs.html):
+(anonymous namespace)
+construction vtable for 
+non-virtual thunk to 
+covariant return thunk to 
+TLS init function for 
+TLS wrapper function for 
+reference temporary #
+transaction clone for 
+non-transaction clone for 
+global constructors keyed to 
+global destructors keyed to 
+std::basic_string<char, std::char_traits<char>, std::allocator<char> >
+std::basic_istream<char, std::char_traits<char> >
+std::basic_ostream<char, std::char_traits<char> >
+std::basic_iostream<char, std::char_traits<char> >
+__gnu_cxx::__concurrence_broadcast_error
+__gnu_cxx::__concurrence_wait_error
+-+xX0123456789abcdef0123456789ABCDEF
+-+xX0123456789abcdefABCDEF
+N10__cxxabiv120__si_class_type_infoE
+N10__cxxabiv117__class_type_infoE
+N10__cxxabiv115__forced_unwindE
+N10__cxxabiv119__foreign_exceptionE
+St17bad_function_call
+*N12_GLOBAL__N_121future_error_categoryE
+*N12_GLOBAL__N_121system_error_categoryE
+*N12_GLOBAL__N_122generic_error_categoryE
+N9__gnu_cxx29__concurrence_broadcast_errorE
+N9__gnu_cxx24__concurrence_wait_errorE
+N9__gnu_cxx20recursive_init_errorE
+NSt8ios_base7failureE
+St16invalid_argument
+GCC: (GNU) 4.9.x 20150123 (prerelease)
+Android clang version 5.0.300080  (based on LLVM 5.0.300080)
+.note.gnu.gold-version

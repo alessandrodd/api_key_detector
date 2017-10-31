@@ -1,0 +1,799 @@
+libpcap-parser.so
+parsePcapFileFromOffset
+pcap_fopen_offline
+__android_log_print
+__stack_chk_fail
+__stack_chk_guard
+_ZN7_JNIEnv9NewObjectEP7_jclassP10_jmethodIDz
+_ZN7_JNIEnv14CallVoidMethodEP8_jobjectP10_jmethodIDz
+Java_it_uniroma2_giadd_aitm_models_PcapParser_parsePcapFile
+pcap_not_initialized
+pcap_can_set_rfmon
+pcap_list_tstamp_types
+pcap_free_tstamp_types
+pcap_offline_read
+pcap_findalldevs
+pcap_findalldevs_interfaces
+pcap_platform_finddevs
+pcap_freealldevs
+capture_source_types
+pcap_create_interface
+pcap_create_common
+pcap_cleanup_live_common
+pcap_set_snaplen
+pcap_check_activated
+pcap_set_promisc
+pcap_set_timeout
+pcap_set_tstamp_type
+pcap_set_immediate_mode
+pcap_set_buffer_size
+pcap_set_tstamp_precision
+pcap_get_tstamp_precision
+pcap_statustostr
+pcap_open_offline_common
+pcap_datalink_ext
+pcap_list_datalinks
+pcap_free_datalinks
+pcap_set_datalink
+pcap_datalink_val_to_name
+pcap_datalink_name_to_val
+pcap_datalink_val_to_description
+pcap_tstamp_type_name_to_val
+pcap_tstamp_type_val_to_name
+pcap_tstamp_type_val_to_description
+pcap_major_version
+pcap_minor_version
+pcap_get_selectable_fd
+pcap_getnonblock
+pcap_getnonblock_fd
+pcap_setnonblock
+pcap_setnonblock_fd
+pcap_setdirection
+pcap_add_to_pcaps_to_close
+pcap_remove_from_pcaps_to_close
+pcap_open_dead_with_tstamp_precision
+pcap_offline_filter
+pcap_lib_version
+netfilter_findalldevs
+netfilter_create
+pthread_mutex_lock
+pthread_mutex_unlock
+add_addr_to_iflist
+pcap_compile_nopcap
+gen_atmtype_abbrev
+gen_atmfield_code
+gen_llc_s_subtype
+gen_llc_u_subtype
+gen_proto_abbrev
+pthread_key_create
+pthread_key_delete
+gen_portrangeop6
+pthread_getspecific
+pthread_setspecific
+pcap_ether_hostton
+pcap_nametonetaddr
+pcap_nametoportrange
+__pcap_nametodnaddr
+pcap_nametoaddrinfo
+pcap_nametoeproto
+pcap_nametoproto
+__cxa_pure_virtual
+gen_p80211_fcdir
+gen_mtp2type_abbrev
+gen_mtp3field_code
+gen_atmmulti_abbrev
+install_bpf_program
+pcap_next_etherent
+pcap_open_offline_with_tstamp_precision
+pcap_fopen_offline_with_tstamp_precision
+pcap_open_offline
+pcap_check_header
+pcap_ng_check_header
+swap_pseudo_headers
+pcap_dump_open_append
+bpf_filter_with_aux_data
+pcap__create_buffer
+pcap__flush_buffer
+pcap__switch_to_buffer
+pcap__delete_buffer
+pcap_push_buffer_state
+pcap_pop_buffer_state
+pcap__scan_buffer
+pcap__scan_string
+pcap__scan_bytes
+pcap__flex_debug
+pcap_lex_destroy
+_ZSt15get_new_handlerv
+__cxa_allocate_exception
+_ZTVSt9bad_alloc
+_ZTISt9bad_alloc
+_ZNSt9bad_allocD1Ev
+_ZNKSt9bad_alloc4whatEv
+_ZNSt9bad_allocD2Ev
+_ZNSt9exceptionD2Ev
+_ZNSt9bad_allocD0Ev
+_ZTSSt9bad_alloc
+_ZTVN10__cxxabiv120__si_class_type_infoE
+_ZTISt9exception
+__cxa_end_cleanup
+__cxa_call_unexpected
+__cxa_free_exception
+__cxa_allocate_dependent_exception
+__cxa_free_dependent_exception
+__gnu_end_cleanup
+__cxa_type_match
+_ZTIN10__cxxabiv119__foreign_exceptionE
+_ZTIN10__cxxabiv115__forced_unwindE
+__cxa_begin_cleanup
+__cxa_get_globals
+__cxa_begin_catch
+_ZN10__cxxabiv111__terminateEPFvvE
+_ZN10__cxxabiv112__unexpectedEPFvvE
+_ZSt10unexpectedv
+__cxa_get_globals_fast
+_ZTISt13bad_exception
+_ZTVSt13bad_exception
+_ZNSt13bad_exceptionD1Ev
+__cxa_get_exception_ptr
+_ZSt18uncaught_exceptionv
+_ZNSt9exceptionD1Ev
+_ZNSt13bad_exceptionD2Ev
+_ZNKSt9exception4whatEv
+_ZNKSt13bad_exception4whatEv
+_ZNSt9exceptionD0Ev
+_ZNSt13bad_exceptionD0Ev
+_ZN10__cxxabiv115__forced_unwindD2Ev
+_ZN10__cxxabiv115__forced_unwindD1Ev
+_ZN10__cxxabiv115__forced_unwindD0Ev
+_ZN10__cxxabiv119__foreign_exceptionD2Ev
+_ZN10__cxxabiv119__foreign_exceptionD1Ev
+_ZN10__cxxabiv119__foreign_exceptionD0Ev
+_ZTSSt9exception
+_ZTSSt13bad_exception
+_ZTSN10__cxxabiv115__forced_unwindE
+_ZTSN10__cxxabiv119__foreign_exceptionE
+_ZTVSt9exception
+_ZTVN10__cxxabiv115__forced_unwindE
+_ZTVN10__cxxabiv119__foreign_exceptionE
+_ZTVN10__cxxabiv117__class_type_infoE
+_ZSt13set_terminatePFvvE
+_ZN10__cxxabiv119__terminate_handlerE
+_ZSt13get_terminatev
+_ZSt14set_unexpectedPFvvE
+_ZN10__cxxabiv120__unexpected_handlerE
+_ZSt14get_unexpectedv
+_ZSt15set_new_handlerPFvvE
+__cxa_deleted_virtual
+_ZN10__cxxabiv120__si_class_type_infoD2Ev
+_ZN10__cxxabiv117__class_type_infoD2Ev
+_ZN10__cxxabiv120__si_class_type_infoD1Ev
+_ZN10__cxxabiv120__si_class_type_infoD0Ev
+_ZNK10__cxxabiv120__si_class_type_info20__do_find_public_srcEiPKvPKNS_17__class_type_infoES2_
+_ZNK10__cxxabiv120__si_class_type_info12__do_dyncastEiNS_17__class_type_info10__sub_kindEPKS1_PKvS4_S6_RNS1_16__dyncast_resultE
+_ZNK10__cxxabiv120__si_class_type_info11__do_upcastEPKNS_17__class_type_infoEPKvRNS1_15__upcast_resultE
+_ZNK10__cxxabiv117__class_type_info11__do_upcastEPKS0_PKvRNS0_15__upcast_resultE
+_ZTSN10__cxxabiv120__si_class_type_infoE
+_ZTIN10__cxxabiv120__si_class_type_infoE
+_ZNK10__cxxabiv117__class_type_info10__do_catchEPKSt9type_infoPPvj
+_ZNK10__cxxabiv117__class_type_info11__do_upcastEPKS0_PPv
+_ZTIN10__cxxabiv117__class_type_infoE
+_ZNK10__cxxabiv117__class_type_info20__do_find_public_srcEiPKvPKS0_S2_
+_ZN10__cxxabiv117__class_type_infoD1Ev
+_ZN10__cxxabiv117__class_type_infoD0Ev
+_ZNK10__cxxabiv117__class_type_info12__do_dyncastEiNS0_10__sub_kindEPKS0_PKvS3_S5_RNS0_16__dyncast_resultE
+_ZTSN10__cxxabiv117__class_type_infoE
+_ZN9__gnu_cxx27__verbose_terminate_handlerEv
+__cxa_current_exception_type
+__gcclibcxx_demangle_callback
+__gnu_Unwind_Find_exidx
+Error in pcap_loop: %s
+Error fseeking pcap file with fseek
+Error in pcap_open_offline: %s for file %s
+Exception occurred after SetByteArrayRegion [2]
+it/uniroma2/giadd/aitm/models/MyUdpPacket
+([BIIJJIIIIJIIIIIIII)V
+Fit/uniroma2/giadd/aitm/models/PcapParser
+(Lit/uniroma2/giadd/aitm/models/MyIpPacket;)V
+Unable to find class PcapParser
+Unknown error: %d
+DLT %d is not one of the DLTs supported by this device
+%s is not one of the DLTs supported by this device
+Setting direction is not implemented on this platform
+FStatistics aren't available from a pcap_open_dead pcap_t
+no suitable device found
+inet class for 0x%x unknown
+SIOCGIFNETMASK: %s: %s
+SIOCGIFADDR: %s: %s
+%s: no IPv4 address assigned
+snaplen of 0 rejects all packets
+unknown data link type %d
+expression rejects all packets
+Fsyntax error in filter expression
+'llc' not supported for linktype %d
+'llc' supported only on raw ATM
+'lane' supported only on raw ATM
+'ilmic' supported only on raw ATM
+'sc' supported only on raw ATM
+'radio' is not a valid protocol type
+link layer applied in wrong context
+direction applied to 'proto'
+'radio proto' is bogus
+'netbeui proto' is bogus
+'ipx proto' is bogus
+'stp proto' is bogus
+unsupported protocol over mpls
+NFLOG link-layer type filtering not implemented
+AX.25 link-layer type filtering not implemented
+unknown protocol: %s
+'gateway' not supported in this configuration
+port in range '%s' is tcp
+port in range '%s' is udp
+'ip6' modifier applied to ip host
+'ta' is only supported on 802.11 with 802.11 headers
+'ra' is only supported on 802.11 with 802.11 headers
+'decnet' modifier applied to ip6 %s
+'arp' modifier applied to ip6 %s
+'rarp' modifier applied to ip6 %s
+'ip' modifier applied to ip6 %s
+unknown osi proto '%s'
+unknown ether proto '%s'
+unknown ip proto '%s'
+F'protochain' not supported with variable length headers
+unsupported proto to gen_protochain
+bad protocol applied for 'protochain'
+non-network bits set in "%s mask %s"
+mask length must be <= 32
+'gateway' requires a name
+illegal port number %u > 65535
+illegal link layer address
+no mask %s supported
+%s resolved to multiple address
+invalid qualifier against IPv6 address
+mask length must be <= %u
+Fethernet address used in non-ether expression
+IPv6 upper-layer protocol is not supported by proto[x]
+radio information not present in capture
+unsupported index operation
+too many registers needed to evaluate expression
+netmask not known, so 'ip broadcast' not supported
+not a broadcast link
+only link-layer/IP broadcast filters supported
+Flibpcap was compiled without pf support
+802.11 link-layer types supported only on 802.11
+frame direction supported only with 802.11 headers
+ARCnet address used in non-arc expression
+aid supported only on ARCnet
+no VLAN match after MPLS
+no VLAN support for data link type %d
+no MPLS support for data link type %d
+'callref' supported only on raw ATM
+'vci' supported only on raw ATM
+'vpi' supported only on raw ATM
+'hmsu' supported only on MTP2_HSL
+'hlssu' supported only on MTP2_HSL
+'hfisu' supported only on MTP2_HSL
+'msu' supported only on MTP2
+sls value %u too big; max value = 15
+'sls' supported only on SS7
+dpc value %u too big; max value = 16383
+'dpc' supported only on SS7
+'metaconnect' supported only on raw ATM
+'connectmsg' supported only on raw ATM
+'oamf4' supported only on raw ATM
+%s for block-local relative jump: off=%d
+multiple matches
+no destination found
+no jmp destination
+BPF program is not valid
+division by zero
+malformed decnet address '%s'
+decnet name support not included, '%s' cannot be translated
+error reading dump file: %s
+unknown file format
+FSending packets isn't supported on savefiles
+FSetting direction is not supported on savefiles
+FSavefiles cannot be put into non-blocking mode
+FStatistics aren't available from savefiles
+unknown time stamp resolution %u
+archaic pcap savefile format
+BUFMOD hack malloc
+bogus savefile header
+%s: not-yet-activated pcap_t passed to pcap_dump_open
+stream: link-layer type %d isn't supported in savefiles
+%s: truncated pcap file header
+%s: not a pcap file to which we can append
+%s: different byte order, cannot append to file
+the capture file has no Interface Description Blocks
+unknown time stamp resolution %u
+truncated dump file; tried to read %lu bytes, only got %lu
+block in pcap-ng dump file has a length of %u < %lu
+pcap-ng block size %u > maximum %u
+Interface Description Block has more than one if_tsresol option
+;out of memory for per-interface information (%u interfaces)
++<Mthe file has sections with different byte orders
+the file has a section with a bad byte order magic field
+fd_YWUiQttttOtttttttMHjtttttFAtt@ttt>9tt8ttt61tt0ttt.)tttttt(#tt"
+input in flex scanner failed
+fatal error - scanner input buffer overflow
+out of dynamic memory in yy_get_next_buffer()
+out of dynamic memory in pcap_ensure_buffer_stack()
+out of dynamic memory in pcap__create_buffer()
+out of dynamic memory in pcap__scan_buffer()
+Fbad buffer in pcap__scan_bytes()
+out of dynamic memory in pcap__scan_bytes()
+memory exhausted
+libpcap was compiled on a machine without pf support
+unknown 802.11 direction
+unknown 802.11 type
+%s: SIOCETHTOOL(ETHTOOL_GET_TS_INFO) ioctl failed: %s
+socket for SIOCETHTOOL(ETHTOOL_GET_TS_INFO): %s
+Promiscuous mode not supported on the "any" device
+%s: SIOCGIWPRIV with a zero-length buffer didn't fail!
+%s: SIOCGIWPRIV: %s
+%s: SIOCGIWPRIV: %s
+SIOCGIWMODE failed: %s
+/sys/class/net/%s/ifindex
+Error reading /sys/class/net: %s
+Can't open /sys/class/net: %s
+Error reading /proc/net/dev: %s
+FSending packets isn't supported in cooked mode
+Sending packets isn't supported on the "any" device
+recv failed when changing filter: %s
+Warning: Kernel filter failed: %s
+can't remove kernel total filter: %s
+FSetting direction is not supported on SOCK_PACKET sockets
+SIOCGSTAMPNS: %s
+The interface went down
+SIOCGIFINDEX: %s
+SIOCGIFHWADDR: %s
+/sys/class/net/%s/wireless
+%s: SIOCGIWNAME: %s
+SIOCGIFFLAGS: %.*s: %s
+/sys/bus/usb/devices
+USB bus number %d
+Can't get USB bus index from %s
+/sys/kernel/debug/usb/usbmon/%dt
+/sys/kernel/debug/usbmon/%dt
+Finject not supported on USB devices
+Can't read stats from fd %d:%s 
+Can't mflush fd %d: %s
+Can't mfetch fd %d: %s
+/dev/bus/usb/%03d
+/dev/bus/usb/%03d/%s
+/sys/kernel/debug/usb/usbmon/%ds
+/sys/kernel/debug/usbmon/%ds
+Can't read stats from fd %d 
+%x %d %c %c%c:%d:%d %s%n
+%s %s %s %s %s%n
+Can't parse urb tag from '%s'
+Can't parse urb length from '%s'
+Can't attach to device %d %d:%s
+Can't allocate dump buffer: %s
+Unable to get interface index: %s
+Can't create raw socket %d:%s
+Can't get time of day %d:%s
+Can't receive packet %d:%s
+Finject not supported on can devices
+FSetting direction to PCAP_D_OUT is not supported on can
+Can't get netfilter group(s) index from %s
+Netfilter group range from 0 to 65535 (got %ld)
+Maximum 32 netfilter groups! dev: %s
+Linux netfilter log (NFLOG) interface
+Linux netfilter queue (NFQUEUE) interface
+Can't open netlink socket %d:%s
+Malformed message: (nlmsg_len: %u)
+Message truncated: (got: %d) (nlmsg_len: %u)
+Can't receive packet %d:%s
+Finject not supported on netfilter devices
+SIOCGIFNETMASK: %.*s: %s
+SIOCGIFBRDADDR: %.*s: %s
+SIOCGIFDSTADDR: %.*s: %s
+SIOCGIFFLAGS: %.*s: %s
+File %s doesn't exists yet
+Error opening pcap file with fopen
+Unable to find method onPacketParsed
+Unable to find create a new bytearray of size %d [1]
+Exception occurred after SetByteArrayRegion [1]
+it/uniroma2/giadd/aitm/models/MyTcpPacket
+Unable to find class MyTcpPacket
+Unable to find method myTcpPacketConstructor
+Unable to instantiate class MyTcpPacket
+Unable to find create a new bytearray of size %d [2]
+Unable to find class MyUdpPacket
+Unable to find method myUdpPacketConstructor
+Unable to instantiate class MyUdpPacket
+Unable to find create a new bytearray of size %d [3]
+Exception occurred after SetByteArrayRegion [3]
+it/uniroma2/giadd/aitm/models/MyTransportLayerPacket
+Unable to find class MyTransportLayerPacket
+Unable to find method myTransportLayerPacketConstructor
+Unable to instantiate class MyTransportLayerPacket
+it/uniroma2/giadd/aitm/models/MyIpPacket
+Unable to find class MyIpPacket
+(Ljava/lang/String;Ljava/lang/String;IIISSISSJLit/uniroma2/giadd/aitm/models/MyTransportLayerPacket;)V
+Unable to find method myIpPacketConstructor
+Unable to instantiate class MyIpPacket
+can't perform  operation on activated capture
+That type of time stamp is not supported by that device
+That device doesn't support promiscuous mode
+Loop terminated by pcap_breakloop
+The pcap_t has not been activated
+The setting can't be changed after the pcap_t is activated
+No such device exists
+That device doesn't support monitor mode
+That operation is supported only in monitor mode
+You don't have permission to capture on that device
+That device is not up
+That device doesn't support setting the time stamp type
+You don't have permission to capture in promiscuous mode on that device
+That device doesn't support that time stamp precision
+RFC 1483 LLC-encapsulated ATM
+Linux Classical IP-over-ATM
+DLT_SYMANTEC_FIREWALL
+Symantec Firewall
+OpenBSD loopback
+OpenBSD encapsulated IP
+OpenBSD pflog file
+Packet filter state syncing
+DLT_PRISM_HEADER
+802.11 plus Prism header
+RFC 2625 IP-over-Fibre Channel
+DLT_IEEE802_11_RADIO
+802.11 plus radiotap header
+DLT_ARCNET_LINUX
+DLT_JUNIPER_MLPPP
+Juniper Multi-Link PPP
+DLT_JUNIPER_MLFR
+Juniper Multi-Link Frame Relay
+Juniper Encryption Services PIC
+DLT_JUNIPER_GGSN
+Juniper GGSN PIC
+Juniper FRF.16 Frame Relay
+DLT_JUNIPER_ATM2
+Juniper ATM2 PIC
+DLT_JUNIPER_SERVICES
+Juniper Advanced Services PIC
+DLT_JUNIPER_ATM1
+Juniper ATM1 PIC
+DLT_APPLE_IP_OVER_IEEE1394
+Apple IP-over-IEEE 1394
+DLT_MTP2_WITH_PHDR
+SS7 MTP2 with Pseudo-header
+DLT_IEEE802_11_RADIO_AVS
+802.11 plus AVS radio information header
+DLT_JUNIPER_MONITOR
+Juniper Passive Monitor PIC
+DLT_BACNET_MS_TP
+PPP for pppd, with direction flag
+DLT_JUNIPER_PPPOE
+DLT_JUNIPER_PPPOE_ATM
+Juniper PPPoE/ATM
+DLT_JUNIPER_PIC_PEER
+Juniper PIC Peer
+Ethernet with Endace ERF header
+Packet-over-SONET with Endace ERF header
+Linux vISDN LAPD
+DLT_JUNIPER_ETHER
+Juniper Ethernet
+DLT_JUNIPER_FRELAY
+Juniper Frame Relay
+DLT_JUNIPER_CHDLC
+FRF.16 Frame Relay
+Juniper Voice PIC
+Arinc 653 Interpartition Communication
+DLT_BLUETOOTH_HCI_H4
+Bluetooth HCI UART transport layer
+DLT_IEEE802_16_MAC_CPS
+IEEE 802.16 MAC Common Part Sublayer
+USB with Linux header
+Controller Area Network (CAN) v. 2.0B
+DLT_IEEE802_15_4_LINUX
+IEEE 802.15.4 with Linux padding
+Per-Packet Information
+DLT_IEEE802_16_MAC_CPS_RADIO
+IEEE 802.16 MAC Common Part Sublayer plus radiotap header
+Juniper Integrated Service Module
+DLT_IEEE802_15_4
+IEEE 802.15.4 with FCS
+SITA pseudo-header
+Endace ERF header
+Ethernet with u10 Networks pseudo-header
+Juniper Secure Tunnel
+DLT_BLUETOOTH_HCI_H4_WITH_PHDR
+Bluetooth HCI UART transport layer plus pseudo-header
+AX.25 with KISS header
+DLT_IEEE802_15_4_NONASK_PHY
+IEEE 802.15.4 with non-ASK PHY data
+MPLS with label as link-layer header
+Linux evdev events
+DLT_USB_LINUX_MMAPPED
+USB with padded Linux header
+AOS Space Data Link protocol
+Fibre Channel FC-2
+DLT_FC_2_WITH_FRAME_DELIMS
+Fibre Channel FC-2 with frame delimiters
+DLT_CAN_SOCKETCAN
+CAN-bus with SocketCAN headers
+DLT_IEEE802_15_4_NOFCS
+IEEE 802.15.4 without FCS
+Juniper Virtual Server
+DLT_JUNIPER_SRX_E2E
+DLT_JUNIPER_FIBRECHANNEL
+Juniper Fibre Channel
+DLT_STANAG_5066_D_PDU
+STANAG 5066 D_PDUs
+DLT_JUNIPER_ATM_CEMIC
+Juniper ATM CEMIC
+Linux netfilter log messages
+Ethernet with Hilscher netANALYZER pseudo-header
+DLT_NETANALYZER_TRANSPARENT
+Ethernet with Hilscher netANALYZER pseudo-header and with preamble and SFD
+RFC 4391 IP-over-Infiniband
+MPEG-2 transport stream
+ng40 protocol tester Iub/Iur
+NFC LLCP PDUs with pseudo-header
+USB with USBPcap header
+Schweitzer Engineering Laboratories RTAC packets
+DLT_BLUETOOTH_LE_LL
+Bluetooth Low Energy air interface
+DLT_BLUETOOTH_LINUX_MONITOR
+Bluetooth Linux Monitor
+DLT_BLUETOOTH_BREDR_BB
+Bluetooth Basic Rate/Enhanced Data Rate baseband packets
+DLT_BLUETOOTH_LE_LL_WITH_PHDR
+Bluetooth Low Energy air interface with pseudo-header
+PROFIBUS data link layer
+Ethernet with 802.3 Clause 65 EPON preamble
+Host, low precision
+Host, high precision
+adapter_unsynced
+Adapter, not synced with system time
+not-yet-activated pcap_t passed to pcap_compile
+unknown network '%s'
+unknown ether host '%s'
+unknown FDDI host '%s'
+unknown token ring host '%s'
+unknown 802.11 host '%s'
+unknown Fibre Channel host '%s'
+only ethernet/FDDI/token ring/802.11/ATM LANE/Fibre Channel supports link-level host name
+unknown host '%s'
+unknown host '%s'%s
+ for specified address family
+illegal qualifier of 'port'
+unknown port '%s'
+port '%s' is tcp
+port '%s' is sctp
+port '%s' is udp
+illegal port number %d < 0
+illegal port number %d > 65535
+illegal qualifier of 'portrange'
+unknown port in range '%s'
+port in range '%s' is sctp
+non-network bits set in "%s/%d"
+Mask syntax for networks only
+invalid ip6 address %s
+ethernet addresses supported only on ethernet/FDDI/token ring/802.11/ATM LANE/Fibre Channel
+data size must be 1, 2, or 4
+link-layer multicast filters supported only on ethernet/FDDI/token ring/ARCNET/802.11/ATM LANE/Fibre Channel
+inbound/outbound not supported on linktype %d when reading savefiles
+libpcap was compiled on a machine without pf support
+'metac' supported only on raw ATM
+'bcc' supported only on raw ATM
+'oam4sc' supported only on raw ATM
+'oam4ec' supported only on raw ATM
+'fisu' supported only on MTP2
+'lssu' supported only on MTP2
+'sio' supported only on SS7
+sio value %u too big; max value = 255
+'opc' supported only on SS7
+opc value %u too big; max value = 16383
+'oam' supported only on raw ATM
+Multi-link Frame Relay link-layer type filtering not implemented
+IrDA link-layer type filtering not implemented
+DOCSIS link-layer type filtering not implemented
+MTP2 link-layer type filtering not implemented
+ERF link-layer type filtering not implemented
+PFSYNC link-layer type filtering not implemented
+LAPD link-layer type filtering not implemented
+USB link-layer type filtering not implemented
+Bluetooth link-layer type filtering not implemented
+CAN link-layer type filtering not implemented
+IEEE 802.15.4 link-layer type filtering not implemented
+IEEE 802.16 link-layer type filtering not implemented
+SITA link-layer type filtering not implemented
+RAIF1 link-layer type filtering not implemented
+IPMB link-layer type filtering not implemented
+%s link-layer type filtering not implemented
+DLT %u link-layer type filtering not implemented
+arp does not encapsulate another protocol
+rarp does not encapsulate another protocol
+atalk encapsulation is not specifiable
+decnet encapsulation is not specifiable
+sca does not encapsulate another protocol
+lat does not encapsulate another protocol
+moprc does not encapsulate another protocol
+mopdl does not encapsulate another protocol
+'udp proto' is bogus
+'tcp proto' is bogus
+'sctp proto' is bogus
+'icmp proto' is bogus
+'igmp proto' is bogus
+'igrp proto' is bogus
+'pim proto' is bogus
+'vrrp proto' is bogus
+'carp proto' is bogus
+'icmp6 proto' is bogus
+'ah proto' is bogus
+'tcp' modifier applied to %s
+'sctp' modifier applied to %s
+'udp' modifier applied to %s
+'icmp' modifier applied to %s
+'igmp' modifier applied to %s
+'igrp' modifier applied to %s
+'pim' modifier applied to %s
+'vrrp' modifier applied to %s
+'carp' modifier applied to %s
+ATALK host filtering not implemented
+AARP host filtering not implemented
+SCA host filtering not implemented
+LAT host filtering not implemented
+MOPDL host filtering not implemented
+MOPRC host filtering not implemented
+'icmp6' modifier applied to %s
+'ah' modifier applied to %s
+'esp' modifier applied to %s
+ISO host filtering not implemented
+'esis' modifier applied to %s
+'isis' modifier applied to %s
+'clnp' modifier applied to %s
+'stp' modifier applied to %s
+IPX host filtering not implemented
+'netbeui' modifier applied to %s
+'radio' modifier applied to %s
+'addr1' is only supported on 802.11 with 802.11 headers
+'addr2' is only supported on 802.11 with 802.11 headers
+'addr3' is only supported on 802.11 with 802.11 headers
+'addr4' is only supported on 802.11 with 802.11 headers
+'addr1' is only supported on 802.11
+'addr2' is only supported on 802.11
+'addr3' is only supported on 802.11
+'addr4' is only supported on 802.11
+'ra' is only supported on 802.11
+'ta' is only supported on 802.11
+link-layer modifier applied to ip6 %s
+truncated dump file; tried to read %lu file header bytes, only got %lu
+error reading dump file: %s
+%s: link-layer type %d isn't supported in savefiles
+%s: different time stamp precision, cannot append to file
+%s: not a pcap file
+%s: version is %u.%u, cannot append to file
+%s: different linktype, cannot append to file
+%s: different snaplen, cannot append to file
+Can't write to %s: %s
+Can't seek to end of %s: %s
+truncated dump file; tried to read %lu header bytes, only got %lu
+truncated dump file; tried to read %u captured bytes, only got %lu
+Section Header Block in pcap-ng dump file has a length of %u < %lu
+unknown pcap-ng savefile major version number %u
+the capture file has a packet block before any Interface Description Blocks
+block of type %u in pcap-ng dump file is too short
+Interface Description Block has opt_endofopt option with length %u != 0
+Interface Description Block has if_tsresol option with length %u != 1
+Interface Description Block if_tsresol option resolution 10^-%u is too high
+Interface Description Block has if_tsoffset option with length %u != 8
+Interface Description Block has more than one if_tsoffset option
+an interface has a type %u different from the type of the first interface
+an interface has a snapshot length %u different from the type of the first interface
+a packet arrived on interface %u, but there's no Interface Description Block for that interface
+bogus IPv6 address %s
+bogus ethernet address %s
+illegal token: %s
+illegal char '%c'
+fatal flex scanner internal error--no action found
+fatal flex scanner internal error--end of buffer missed
+'port' modifier applied to ip host
+'portrange' modifier applied to ip host
+'proto' modifier applied to ip host
+'protochain' modifier applied to ip host
+unknown 802.11 type name
+unknown 802.11 subtype name
+unknown LLC type name "%s"
+deauthentication
+data-cf-ack-poll
+qos-data-cf-poll
+qos-data-cf-ack-poll
+setfilter: No filter specified
+Warning: Filter too complex for kernel
+can't remove kernel filter: %s
+can't get FD flags when changing filter: %s
+can't set nonblocking mode when changing filter: %s
+can't restore FD flags when changing filter: %s
+Can't restore interface %s flags (SIOCGIFFLAGS failed: %s).
+Please adjust manually.
+Hint: This can't happen with Linux >= 2.2.0.
+Can't restore interface %s flags (SIOCSIFFLAGS failed: %s).
+Please adjust manually.
+Hint: This can't happen with Linux >= 2.2.0.
+Can't restore interface %s wireless mode (SIOCSIWMODE failed: %s).
+Please adjust manually.
+Can't bring interface %s back up (SIOCSIFFLAGS failed: %s).
+Please adjust manually.
+arptype %d not supported by libpcap - falling back to cooked socket
+setsockopt: unable to set SO_TIMESTAMPNS
+forceprismheader
+%s: Can't get flags: %s
+%s: Can't set flags: %s
+%s: SIOCGIWFREQ: %s
+Can't restore interface wireless mode (SIOCSIWMODE failed: %s).
+Please adjust manually.
+pcap_activate: The "any" device isn't supported on 2.0[.x]-kernel systems
+unknown arptype %d
+SIOCGIFFLAGS: %s
+SIOCSIFFLAGS: %s
+Can't open /proc/net/dev: %s
+Can't open USB bus file %s: %s
+Can't read from fd %d: %s
+Can't open USB stats file %s: %s
+Can't parse USB bus message '%s', too few tokens (expected 8 got %d)
+Can't get timestamp for message '%s' %d:%s
+Can't parse USB bus message '%s', too few tokens (expected 5 got %d)
+Can't create raw socket %d:%s
+Can't allocate dump buffer: %s
+NFULNL_CFG_CMD_PF_UNBIND: %s
+NFULNL_CFG_CMD_PF_BIND: %s
+Can't listen on group group index: %s
+NFULNL_COPY_PACKET: %s
+NFQNL_CFG_CMD_PF_UNBIND: %s
+NFQNL_CFG_CMD_PF_BIND: %s
+NFQNL_COPY_PACKET: %s
+ !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+libpcap version 1.7.4
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwx
+GHFIJKLMNOPQRSTUVXW
+YZ[\tvwy{]^g_`abcdfehij
+Pseudo-device that captures on all interfaces
+__gnu_cxx::__concurrence_lock_error
+__gnu_cxx::__concurrence_unlock_error
+std::bad_exception
+pure virtual method called
+deleted virtual method called
+terminate called recursively
+terminate called after throwing an instance of '
+terminate called without an active exception
+(anonymous namespace)
+construction vtable for 
+typeinfo name for 
+typeinfo fn for 
+non-virtual thunk to 
+virtual thunk to 
+covariant return thunk to 
+guard variable for 
+TLS init function for 
+TLS wrapper function for 
+reference temporary #
+hidden alias for 
+transaction clone for 
+non-transaction clone for 
+global constructors keyed to 
+global destructors keyed to 
+std::basic_string
+std::basic_string<char, std::char_traits<char>, std::allocator<char> >
+std::basic_istream<char, std::char_traits<char> >
+std::basic_ostream<char, std::char_traits<char> >
+std::basic_iostream<char, std::char_traits<char> >
+reinterpret_cast
+unsigned __int128
+unsigned long long
+decltype(nullptr)
+N9__gnu_cxx24__concurrence_lock_errorE
+N9__gnu_cxx26__concurrence_unlock_errorE
+N10__cxxabiv115__forced_unwindE
+N10__cxxabiv119__foreign_exceptionE
+St13bad_exception
+N10__cxxabiv120__si_class_type_infoE
+N10__cxxabiv117__class_type_infoE
+GCC: (GNU) 4.9.x 20150123 (prerelease)
+Android clang version 5.0.300080  (based on LLVM 5.0.300080)
+.note.gnu.build-id
+.data.rel.ro.local
+.note.gnu.gold-version

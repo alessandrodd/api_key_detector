@@ -1,0 +1,16 @@
+{
+  "dump": "default_detector.pki",
+  "learnsets": [
+    "datasets/pride_and_prejudice.txt",
+    "datasets/i_promessi_sposi.txt",
+    "datasets/le_comte_de_monte_cristo.txt",
+    "datasets/menschliches_allzumenschliches.txt"
+  ],
+  "good_test": [
+    "datasets/good.txt"
+  ],
+  "bad_test": [
+    "datasets/bad.txt"
+  ],
+  "re_train": false
+}
