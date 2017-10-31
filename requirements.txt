@@ -1,0 +1,5 @@
+rstr==2.2.6
+plotly==2.2.1
+numpy==1.13.3
+matplotlib==2.1.0
+scikit_learn==0.19.1
