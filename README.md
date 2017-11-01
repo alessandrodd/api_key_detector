@@ -13,7 +13,15 @@ For technical details, [check out my thesis (_Automatic extraction of API Keys f
 pip install -r requirements.txt
 ```
 
-## Library Usage
+## Installation
+
+```bash
+$ git clone https://github.com/alessandrodd/api_key_detector.git
+$ pip3 install -r api_key_detector/requirements.txt
+$ python3 api_key_detector
+```
+
+## Example Library Usage
 
 ```python
 >>> from api_key_detector import detector
