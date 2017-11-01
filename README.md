@@ -3,7 +3,7 @@ Neural Network Based, Automatic API Key Detector
 
 A Multilayer-Perceptron-based system, able to identify API Key strings with an accuracy of over 99%.
 
-For technical details, [see my thesis and, in particular, **Chapter 3** of the work.](https://drive.google.com/open?id=0B59pyODQqCxiUVkzb3diU0JNVzA)
+For technical details, [check out my thesis (_Automatic extraction of API Keys from Android applications_) and, in particular, **Chapter 3** of the work.](https://goo.gl/uryZeA)
 
 ## Requirements
 
