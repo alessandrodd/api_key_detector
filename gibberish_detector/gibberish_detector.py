@@ -66,7 +66,7 @@ class GibberishDetector(object):
         # Count transitions from big text files, taken
         # from http://norvig.com/spell-correct.html
         for document in learnset:
-            for line in open(document):
+            for line in open(document, encoding="utf8"):
                 for a, b in ngram(2, line):
                     self.log_prob_mat[pos[a]][pos[b]] += 1
 
@@ -84,13 +84,13 @@ class GibberishDetector(object):
         # bad phrases.
         good_probs = []
         for good_test_file in good_test:
-            with open(good_test_file) as f:
+            with open(good_test_file, encoding="utf8") as f:
                 for l in f:
                     good_probs.append(self.evaluate(l))
 
         bad_probs = []
         for bad_test_file in bad_test:
-            with open(bad_test_file) as f:
+            with open(bad_test_file, encoding="utf8") as f:
                 for l in f:
                     bad_probs.append(self.evaluate(l))
 
