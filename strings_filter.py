@@ -1,4 +1,4 @@
-from words_finder_singleton import finder
+from .words_finder_singleton import finder
 
 
 class StringsFilter(object):

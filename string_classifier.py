@@ -5,10 +5,10 @@ import pickle
 import numpy as np
 from sklearn.neural_network import MLPClassifier
 
-import charset
-from entropy import normalized_entropy
-from gibberish_detector.gibberish_singleton import gib_detector
-from sequentiality import string_sequentiality
+from . import charset
+from .entropy import normalized_entropy
+from .gibberish_detector.gibberish_singleton import gib_detector
+from .sequentiality import string_sequentiality
 
 
 class StringBinaryClassifier(object):

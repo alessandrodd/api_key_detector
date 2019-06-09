@@ -2,28 +2,31 @@ import argparse
 import logging
 import os
 import sys
+import json
 from logging.config import dictConfig
 
 import numpy as np
 
+LOG_CONFIG_PATH = "log_config.json"
 __location__ = os.path.realpath(os.path.join(os.getcwd(), os.path.dirname(__file__)))
-sys.path.append(__location__)
 
-from detector_config import conf
+with open(os.path.join(__location__, LOG_CONFIG_PATH), "r", encoding="utf-8") as fd:
+    log_config = json.load(fd)
+    logging.config.dictConfig(log_config["logging"])
 
-dictConfig(conf.logging)
+from . import config
 
-import entropy
-import sequentiality
-import charset as cset
-from dataset_plotter import generate_3d_scatterplot
-from gibberish_detector.gibberish_singleton import gib_detector
+from . import entropy
+from . import sequentiality
+from . import charset as cset
+from .dataset_plotter import generate_3d_scatterplot
+from .gibberish_detector.gibberish_singleton import gib_detector
 
-import string_classifier
+from . import string_classifier
 
-import words_finder_singleton
-from detector import filter_api_keys
-from detector import detect_api_keys
+from . import words_finder_singleton
+from .detector import filter_api_keys
+from .detector import detect_api_keys
 
 
 def generate_training_set(api_key_files, generic_text_files, dump_file):
@@ -174,7 +177,7 @@ def main():
             generate_training_set(results.api_key_files, results.generic_text_files, results.dump_file)
             return
         elif results.dump_file:
-            generate_training_set(conf.string_classifier['api_learnsets'], conf.string_classifier['text_learnsets'],
+            generate_training_set(config.string_classifier['api_learnsets'], config.string_classifier['text_learnsets'],
                                   results.dump_file)
             return
     elif results.boolean_generate_scatterplot:
@@ -182,7 +185,7 @@ def main():
             generate_3d_scatterplot(results.api_key_files, results.generic_text_files, results.dump_file)
             return
         elif results.dump_file:
-            generate_3d_scatterplot(conf.string_classifier['api_learnsets'], conf.string_classifier['text_learnsets'],
+            generate_3d_scatterplot(config.string_classifier['api_learnsets'], config.string_classifier['text_learnsets'],
                                     results.dump_file)
             return
     parser.print_help()

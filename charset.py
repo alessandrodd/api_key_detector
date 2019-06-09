@@ -2,7 +2,7 @@ import math
 import sys
 from enum import Enum
 
-from my_tools.memoized import Memoized
+from .my_tools.memoized import Memoized
 
 
 class Charset(Enum):

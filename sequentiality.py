@@ -6,7 +6,7 @@ import matplotlib
 matplotlib.use('Agg')  # Avoid tkinter dependency
 import matplotlib.pyplot as plt
 
-import charset as cset
+from . import charset as cset
 
 
 def string_sequentiality(string, charset, plot_scatterplot=False):

@@ -3,8 +3,8 @@ import sys
 
 __location__ = os.path.realpath(os.path.join(os.getcwd(), os.path.dirname(__file__)))
 sys.path.append(__location__)
-from classifier_singleton import classifier
-from strings_filter_singleton import s_filter
+from .classifier_singleton import classifier
+from .strings_filter_singleton import s_filter
 
 
 def filter_api_keys(strings):

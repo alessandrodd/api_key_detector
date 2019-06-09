@@ -18,7 +18,7 @@ pip install -r requirements.txt
 ```bash
 $ git clone https://github.com/alessandrodd/api_key_detector.git
 $ pip3 install -r api_key_detector/requirements.txt
-$ python3 api_key_detector
+$ python3 -m api_key_detector
 ```
 
 ## Example Library Usage

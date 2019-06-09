@@ -2,7 +2,7 @@ import numpy as np
 import plotly
 import plotly.graph_objs as go
 
-from string_classifier import generate_training_set
+from .string_classifier import generate_training_set
 
 
 def generate_3d_scatterplot(api_key_files, generic_text_files, dump_file):
