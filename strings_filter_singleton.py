@@ -12,4 +12,4 @@ blacklists = []
 for path in config.blacklists:
     blacklists.append(os.path.join(__location__, path))
 
-s_filter = StringsFilter(config.min_key_length, config.word_content_threshold, blacklists)
+s_filter = StringsFilter(config.min_key_length, config.max_key_length, config.word_content_threshold, blacklists)

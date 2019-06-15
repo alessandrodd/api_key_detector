@@ -2,8 +2,9 @@ from .words_finder_singleton import finder
 
 
 class StringsFilter(object):
-    def __init__(self, min_key_length, word_content_threshold, blacklists):
+    def __init__(self, min_key_length, max_key_length, word_content_threshold, blacklists):
         self.min_key_length = min_key_length
+        self.max_key_length = max_key_length
         self.word_content_threshold = word_content_threshold
         self.blacklist = set()
         for txt in blacklists:
@@ -19,8 +20,8 @@ class StringsFilter(object):
          :type string: string
          :return: False if it can't be an API key, True otherwise
          """
-        # filter short and invalid strings
-        if not string or len(string) < self.min_key_length:
+        # filter short, long and invalid strings
+        if not string or len(string) < self.min_key_length or len(string) > self.max_key_length:
             return False
         # filter keys in blacklist
         if self.blacklist and string in self.blacklist:
